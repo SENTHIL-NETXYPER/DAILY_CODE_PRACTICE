@@ -1,0 +1,5 @@
+a=int(input("1stone"))
+b=int(input("2stone"))
+c=int(input("1stone"))
+d=max(a,b,c)
+print(d)
