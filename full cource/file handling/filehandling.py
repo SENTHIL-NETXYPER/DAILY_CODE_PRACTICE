@@ -1,0 +1,8 @@
+a = open(r"D:\senthils pythone learning\variables.py\file handling\fruits.txt","w+")
+a.write("gda fuck\n")
+a.write("gda fuck\n")
+a.write("gda fuck\n")
+a.seek(0)
+c=a.read()
+a.close()
+print(c)
